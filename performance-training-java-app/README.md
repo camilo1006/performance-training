@@ -8,6 +8,8 @@ Simply type:
 
 ```./gradlew bootRun```
 
+This will enable JMX monitoring by default in the `8008` port.
+
 ## Building the app
 
 Simply type:
