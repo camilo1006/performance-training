@@ -6,7 +6,7 @@ Demo app to demonstrate and teach about performance engineering.
 
 Simply type:
 
-./gradlew bootRun
+```./gradlew bootRun```
 
 ## Building the app
 
@@ -20,7 +20,7 @@ This will generate an executable JAR file inside of `build/libs`.
 
 Simply type:
 
-`java -jar performance-training-java-app.jar`
+```java -jar performance-training-java-app.jar```
 
 If you wish to activate JMX monitoring for the app use:
 
