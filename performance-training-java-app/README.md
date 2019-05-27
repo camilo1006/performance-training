@@ -8,6 +8,8 @@ Simply type:
 
 ```./gradlew bootRun```
 
+This will enable JMX monitoring by default in the `8008` port.
+
 ## Building the app
 
 Simply type:
@@ -22,6 +24,6 @@ Simply type:
 
 ```java -jar performance-training-java-app.jar```
 
-If you wish to activate JMX monitoring for the app use:
+If you wish to activate JMX monitoring for the app, use:
 
 ```java -jar java -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=8008 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar performance-training-java-app.jar```
